@@ -599,5 +599,5 @@ var facts = new Array(
 
 export default async function (req) {
   const fact = facts[Math.floor(Math.random() * facts.length)];
-  return Response.json({ fact });
+  return Response.json({ fact, category: "" });
 }
