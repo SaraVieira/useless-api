@@ -2,11 +2,11 @@ import "../globals.css";
 
 function MyApp({ Component, pageProps }) {
   return (
-    <div className="p-8 ">
+    <div>
       <nav className="flex justify-center my-12">
         <img src="/logo.svg" alt="logo" width="500" className="max-w-full" />
       </nav>
-      <div className="max-w-xl m-auto">
+      <div className="max-w-xl m-auto prose">
         <Component {...pageProps} />
       </div>
       <footer className="footer footer-center p-10 bg-primary text-primary-content">

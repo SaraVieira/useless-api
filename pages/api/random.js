@@ -25,7 +25,7 @@ const random = async function (req) {
     if (count <= 20) {
       let factsResponse = [];
 
-      for (let i = count; i >= 0; i--) {
+      for (let i = count; i > 0; i--) {
         factsResponse.push(facts[Math.floor(Math.random() * facts.length)]);
       }
       return Response.json(factsResponse);

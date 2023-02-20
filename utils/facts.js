@@ -31,6 +31,10 @@ export const CATEGORIES = {
     name: "food",
     desc: "Food is the best right???",
   },
+  SPACE: {
+    name: "space",
+    desc: "Space is big, almost like infinite you know??",
+  },
 };
 
 const icelandFacts = [
@@ -238,11 +242,180 @@ export const facts = [
     fact: "The very first internet meme went viral in 1996, and it’s known as Baby Cha-Cha-Cha.",
     category: CATEGORIES.MEDIA,
   },
-  // { fact: "", category: CATEGORIES.ANIMAL },
-  // { fact: "", category: CATEGORIES.ANIMAL },
-  // { fact: "", category: CATEGORIES.ANIMAL },
-  // { fact: "", category: CATEGORIES.ANIMAL },
-  // { fact: "", category: CATEGORIES.ANIMAL },
+  {
+    fact: "There is a conspiracy theory that Finland is not real",
+    category: CATEGORIES.GEOGRAPHY,
+  },
+  {
+    fact: "It's possible to lead a cow upstairs...but not downstairs.",
+    category: CATEGORIES.ANIMAL,
+  },
+  {
+    fact: "Women blink nearly twice as much as men.",
+    category: CATEGORIES.HUMAN,
+  },
+  {
+    fact: "Pepsi originally contained pepsin, thus the name. ",
+    category: CATEGORIES.THINGS,
+  },
+  {
+    fact: "A crocodile cannot stick its tongue out.",
+    category: CATEGORIES.ANIMAL,
+  },
+  {
+    fact: "Our eyes are always the same size from birth, but our nose and ears never stop growing.",
+    category: CATEGORIES.HUMAN,
+  },
+  {
+    fact: "The electric chair was invented by a dentist. ",
+    category: CATEGORIES.THINGS,
+  },
+  { fact: "A snail can sleep for three years. ", category: CATEGORIES.ANIMAL },
+  {
+    fact: "The 'pound' key on your keyboard (#) is called an octotroph. ",
+    category: CATEGORIES.LANGUAGE,
+  },
+  {
+    fact: "The 'dot' over the letter 'i' is called a tittle.",
+    category: CATEGORIES.LANGUAGE,
+  },
+  {
+    fact: "The house fly hums in the middle octave key of F. ",
+    category: CATEGORIES.ANIMAL,
+  },
+  {
+    fact: "Marie Curie's 100-year-old belongings are still radioactive.",
+    category: CATEGORIES.HUMAN,
+  },
+  {
+    fact: "The inventor of Pringles is buried in a Pringles can.",
+    category: CATEGORIES.THINGS,
+  },
+  {
+    fact: "Queen Elizabeth II was a trained mechanic.",
+    category: CATEGORIES.HUMAN,
+  },
+  {
+    fact: "Pound cake originally included a pound of all of its ingredients.",
+    category: CATEGORIES.FOOD,
+  },
+  {
+    fact: "Montpelier, Vermont, is the only U.S. capital without a McDonald's.",
+    category: CATEGORIES.GEOGRAPHY,
+  },
+  {
+    fact: "Dragonflies have six legs but can't walk.",
+    category: CATEGORIES.ANIMAL,
+  },
+  {
+    fact: "In old Christian art, good angels were red and Satan was blue.",
+    category: CATEGORIES.THINGS,
+  },
+  {
+    fact: "Octopuses and squid have three hearts.",
+    category: CATEGORIES.ANIMAL,
+  },
+  {
+    fact: "Around 16 million people alive today are direct descendants of Genghis Khan.",
+    category: CATEGORIES.HUMAN,
+  },
+  { fact: "The Play-Doh scent is patented.", category: CATEGORIES.THINGS },
+  {
+    fact: "Mustache shields were a thing in the Victorian Era.",
+    category: CATEGORIES.THINGS,
+  },
+  { fact: "Bees have 5 eyes.", category: CATEGORIES.ANIMAL },
+  {
+    fact: "Oreo has made enough cookies to go to the Moon and back 5 times.",
+    category: CATEGORIES.FOOD,
+  },
+  {
+    fact: "The sun makes up more than 99 percent of our solar system's mass.",
+    category: CATEGORIES.SPACE,
+  },
+  {
+    fact: "Jupiter is twice as massive as all the other planets combined.",
+    category: CATEGORIES.SPACE,
+  },
+  {
+    fact: "A dragonfly has a lifespan of only one day.",
+    category: CATEGORIES.ANIMAL,
+  },
+  {
+    fact: "Venus is the only planet that rotates clockwise. ",
+    category: CATEGORIES.SPACE,
+  },
+  {
+    fact: "Al Capone’s business card said he was a used furniture dealer. ",
+    category: CATEGORIES.HUMAN,
+  },
+  {
+    fact: "New Jersey grows two-thirds of the world’s eggplants. ",
+    category: CATEGORIES.GEOGRAPHY,
+  },
+  {
+    fact: " An ostrich’s eye is bigger than its brain.",
+    category: CATEGORIES.ANIMAL,
+  },
+  {
+    fact: "Most car horns are in the key of F. 53. ",
+    category: CATEGORIES.THINGS,
+  },
+  {
+    fact: "Most American car horns honk in the key of F. 71.",
+    category: CATEGORIES.THINGS,
+  },
+  {
+    fact: "Somali pirates have such a hatred for Western culture, that the British Navy uses music from Britney Spears to scare them off.",
+    category: CATEGORIES.HUMAN,
+  },
+  { fact: " Women see more colors than men.", category: CATEGORIES.HUMAN },
+  { fact: " Women hiccup less than men. ", category: CATEGORIES.HUMAN },
+  {
+    fact: "The two highest IQ scores in history both belonged to women. (",
+    category: CATEGORIES.HUMAN,
+  },
+  {
+    fact: "The country of Russia is bigger than Pluto. ",
+    category: CATEGORIES.SPACE,
+  },
+  {
+    fact: "It’s possible to turn peanut butter into diamonds. ",
+    category: CATEGORIES.FOOD,
+  },
+  {
+    fact: " Linda Lou Taylor of Indiana holds the Guinness World Record for the most married person. She’s been married 23 times.",
+    category: CATEGORIES.HUMAN,
+  },
+  {
+    fact: " Emus and kangaroos cannot walk backward. ",
+    category: CATEGORIES.ANIMAL,
+  },
+  {
+    fact: "In the 1830s, ketchup was used medicinally.",
+    category: CATEGORIES.FOOD,
+  },
+  {
+    fact: "Neptune orbits the sun once every 165 years.",
+    category: CATEGORIES.SPACE,
+  },
+  {
+    fact: " Dark Matter accounts for over 85 percent of the universe. ",
+    category: CATEGORIES.SPACE,
+  },
+  {
+    fact: " Fruit flies were the first living creatures sent into space. ",
+    category: CATEGORIES.SPACE,
+  },
+  {
+    fact: "The footprints made on the moon will be there for 100 million years. ",
+    category: CATEGORIES.SPACE,
+  },
+  {
+    fact: "The moon was once a piece of the Earth. ",
+    category: CATEGORIES.SPACE,
+  },
+  //   { fact: "", category: CATEGORIES.ANIMAL },
   // { fact: "", category: CATEGORIES.ANIMAL },
 ].map((f) => ({
   ...f,
