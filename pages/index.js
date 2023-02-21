@@ -17,7 +17,7 @@ const Example = ({ path, cat, desc }) => {
     <>
       <h4>{desc}</h4>
       <kbd className="kbd kbd-lg">
-        GET useless.dotenv.dev/random{path ? `?${path}` : ""}
+        GET useless.dotenv.dev/api/random{path ? `?${path}` : ""}
       </kbd>
       {cat && (
         <div
