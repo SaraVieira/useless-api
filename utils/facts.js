@@ -6,7 +6,7 @@ const icelandFacts = [
   "Beer was illegal in Iceland until 1989.",
   "Iceland does not possess an army, air force or navy",
   "There are only two places on earth that do not have mosquitoes; Antarctica and Iceland.",
-  "There is not a single McDonald’s restaurant to be found in Iceland. ",
+  "There is not a single McDonald's restaurant to be found in Iceland. ",
   "According to local Icelandic Christmas traditions, there are 13 Santa Clauses ",
   "Iceland imports ice",
   "The safest country in the world is Iceland",
@@ -21,7 +21,7 @@ export const facts = [
     category: CATEGORIES.ANIMAL,
   },
   {
-    fact: "There are 32 muscles in a cat’s ear.",
+    fact: "There are 32 muscles in a cat's ear.",
     category: CATEGORIES.ANIMAL,
   },
   {
@@ -33,7 +33,7 @@ export const facts = [
     category: CATEGORIES.ANIMAL,
   },
   {
-    fact: "Dr Seuss invented the word ‘nerd’.",
+    fact: "Dr Seuss invented the word 'nerd'.",
     category: CATEGORIES.MEDIA,
   },
   {
@@ -77,7 +77,7 @@ export const facts = [
     category: CATEGORIES.THINGS,
   },
   {
-    fact: "No word in the English language rhymes with 'MONTH.'",
+    fact: "No word in the English language rhymes with 'MONTH'.",
     category: CATEGORIES.LANGUAGE,
   },
   {
@@ -85,7 +85,7 @@ export const facts = [
     category: CATEGORIES.THINGS,
   },
   {
-    fact: "'Dreamt' is the only word in the English language that ends with 'mt.'",
+    fact: "'Dreamt' is the only word in the English language that ends with 'mt'.",
     category: CATEGORIES.LANGUAGE,
   },
   {
@@ -101,7 +101,7 @@ export const facts = [
     category: CATEGORIES.THINGS,
   },
   {
-    fact: "Golf balls tend to have 336 'dimples.'",
+    fact: "Golf balls tend to have 336 'dimples'.",
     category: CATEGORIES.THINGS,
   },
   {
@@ -117,7 +117,7 @@ export const facts = [
     category: CATEGORIES.THINGS,
   },
   {
-    fact: "There's a city called 'Rome' on every continent except Antarctica'",
+    fact: "There's a city called 'Rome' on every continent except Antarctica",
     category: CATEGORIES.GEOGRAPHY,
   },
   {
@@ -155,7 +155,7 @@ export const facts = [
     category: CATEGORIES.THINGS,
   },
   {
-    fact: "You can’t bring a Furby to the Pentagon.",
+    fact: "You can't bring a Furby to the Pentagon.",
     category: CATEGORIES.THINGS,
   },
   { fact: "Babies are born without kneecaps. ", category: CATEGORIES.HUMAN },
@@ -164,7 +164,7 @@ export const facts = [
     category: CATEGORIES.THINGS,
   },
   {
-    fact: "The Rubik’s cube is the best-selling toy of all time.",
+    fact: "The Rubik's cube is the best-selling toy of all time.",
     category: CATEGORIES.THINGS,
   },
   {
@@ -181,7 +181,7 @@ export const facts = [
   },
   { fact: "Croissants were invented in Vienna", category: CATEGORIES.FOOD },
   {
-    fact: "There’s an island that France and Spain takes turns owning every 6 months.",
+    fact: "There's an island that France and Spain takes turns owning every 6 months.",
     category: CATEGORIES.GEOGRAPHY,
   },
   {
@@ -189,20 +189,20 @@ export const facts = [
     category: CATEGORIES.MEDIA,
   },
   {
-    fact: " Coca-Cola would be green if there wasn’t coloring.",
+    fact: " Coca-Cola would be green if there wasn't coloring.",
     category: CATEGORIES.FOOD,
   },
   { fact: "7. Carrots were originally purple.", category: CATEGORIES.FOOD },
   {
-    fact: "The first written instance of “OMG” that we know of was in a letter to Winston Churchill in 1917.",
+    fact: "The first written instance of 'OMG' that we know of was in a letter to Winston Churchill in 1917.",
     category: CATEGORIES.LANGUAGE,
   },
   {
-    fact: " Sony’s first product was the electrical rice cooker.",
+    fact: " Sony's first product was the electrical rice cooker.",
     category: CATEGORIES.THINGS,
   },
   {
-    fact: "The very first internet meme went viral in 1996, and it’s known as Baby Cha-Cha-Cha.",
+    fact: "The very first internet meme went viral in 1996, and it's known as Baby Cha-Cha-Cha.",
     category: CATEGORIES.MEDIA,
   },
   {
@@ -210,7 +210,7 @@ export const facts = [
     category: CATEGORIES.GEOGRAPHY,
   },
   {
-    fact: "It's possible to lead a cow upstairs...but not downstairs.",
+    fact: "It's possible to lead a cow upstairs... but not downstairs.",
     category: CATEGORIES.ANIMAL,
   },
   {
@@ -309,15 +309,15 @@ export const facts = [
     category: CATEGORIES.SPACE,
   },
   {
-    fact: "Al Capone’s business card said he was a used furniture dealer. ",
+    fact: "Al Capone's business card said he was a used furniture dealer. ",
     category: CATEGORIES.HUMAN,
   },
   {
-    fact: "New Jersey grows two-thirds of the world’s eggplants. ",
+    fact: "New Jersey grows two-thirds of the world's eggplants. ",
     category: CATEGORIES.GEOGRAPHY,
   },
   {
-    fact: " An ostrich’s eye is bigger than its brain.",
+    fact: " An ostrich's eye is bigger than its brain.",
     category: CATEGORIES.ANIMAL,
   },
   {
@@ -335,7 +335,7 @@ export const facts = [
   { fact: " Women see more colors than men.", category: CATEGORIES.HUMAN },
   { fact: " Women hiccup less than men. ", category: CATEGORIES.HUMAN },
   {
-    fact: "The two highest IQ scores in history both belonged to women. (",
+    fact: "The two highest IQ scores in history both belonged to women. ",
     category: CATEGORIES.HUMAN,
   },
   {
@@ -343,11 +343,11 @@ export const facts = [
     category: CATEGORIES.SPACE,
   },
   {
-    fact: "It’s possible to turn peanut butter into diamonds. ",
+    fact: "It's possible to turn peanut butter into diamonds. ",
     category: CATEGORIES.FOOD,
   },
   {
-    fact: " Linda Lou Taylor of Indiana holds the Guinness World Record for the most married person. She’s been married 23 times.",
+    fact: " Linda Lou Taylor of Indiana holds the Guinness World Record for the most married person. She's been married 23 times.",
     category: CATEGORIES.HUMAN,
   },
   {
