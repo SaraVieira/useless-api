@@ -22,7 +22,7 @@ const random = async function (req) {
   const { searchParams } = new URL(req.url);
   const count = searchParams.get("count");
   const category = searchParams.get("category");
-  if (count) {
+  if (count && !category) {
     if (count <= 20) {
       let factsResponse = [];
 
@@ -38,7 +38,17 @@ const random = async function (req) {
   if (category) {
     if (CATEGORIES[category.toLocaleUpperCase()]) {
       let f = facts.filter((f) => f.category === category);
-      return Response.json(f[Math.floor(Math.random() * f.length)]);
+      if (count) {
+        if (count >= 20) return error("Maximum allowed is 20");
+        let factsResponse = [];
+
+        for (let i = count; i > 0; i--) {
+          factsResponse.push(f[Math.floor(Math.random() * f.length)]);
+        }
+        return Response.json(factsResponse);
+      } else {
+        return Response.json(f[Math.floor(Math.random() * f.length)]);
+      }
     } else {
       return error(
         `Category does not exist, available categories are ${Object.keys(
