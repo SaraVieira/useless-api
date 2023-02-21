@@ -1,4 +1,5 @@
-import { CATEGORIES, facts } from "../../utils/facts";
+import { CATEGORIES } from "../../utils/categories";
+import { facts } from "../../utils/facts";
 
 export const config = {
   runtime: "edge",
