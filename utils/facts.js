@@ -380,7 +380,7 @@ export const facts = [
   },
   // { fact: "", category: CATEGORIES.ANIMAL },
 ].map((f) => ({
-  ...f,,
+  ...f,
   fact: f.fact.trim(),
   category: f.category.name,
 }));
