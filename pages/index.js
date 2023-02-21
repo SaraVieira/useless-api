@@ -10,16 +10,16 @@ const Home = () => (
       in spades
     </h2>
     <div className="flex justify-center">
-      <div class="stats shadow rounded-r-none border-r-base-content/20 border-r">
-        <div class="stat">
-          <div class="stat-title">Total facts</div>
-          <div class="stat-value">{facts.length}</div>
+      <div className="stats shadow rounded-r-none border-r-base-content/20 border-r">
+        <div className="stat">
+          <div className="stat-title">Total facts</div>
+          <div className="stat-value">{facts.length}</div>
         </div>
       </div>
-      <div class="stats shadow rounded-l-none">
-        <div class="stat">
-          <div class="stat-title">Categories</div>
-          <div class="stat-value">{Object.keys(CATEGORIES).length}</div>
+      <div className="stats shadow rounded-l-none">
+        <div className="stat">
+          <div className="stat-title">Categories</div>
+          <div className="stat-value">{Object.keys(CATEGORIES).length}</div>
         </div>
       </div>
     </div>
