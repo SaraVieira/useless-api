@@ -25,6 +25,7 @@ export const Example = ({ path, cat, desc }) => {
           tabIndex={0}
           className="collapse collapse-arrow border border-base-300 bg-base-100 rounded-box mt-8"
         >
+          <input type="checkbox" />
           <div className="collapse-title font-medium">
             See available categories
           </div>
