@@ -464,18 +464,35 @@ export const facts = [
     fact: "In mexico you cannot renounce your citizenship ",
     category: CATEGORIES.GEOGRAPHY,
   },
-  { fact: "", category: CATEGORIES.ANIMAL },
-  { fact: "", category: CATEGORIES.ANIMAL },
-  { fact: "", category: CATEGORIES.ANIMAL },
-  { fact: "", category: CATEGORIES.ANIMAL },
-  { fact: "", category: CATEGORIES.ANIMAL },
-  { fact: "", category: CATEGORIES.ANIMAL },
-  { fact: "", category: CATEGORIES.ANIMAL },
-  { fact: "", category: CATEGORIES.ANIMAL },
-  { fact: "", category: CATEGORIES.ANIMAL },
-  { fact: "", category: CATEGORIES.ANIMAL },
-  { fact: "", category: CATEGORIES.ANIMAL },
-  { fact: "", category: CATEGORIES.ANIMAL },
+  {
+    fact: "Golf Balls Have, On Average, 336 Dimples",
+    category: CATEGORIES.SPORTS,
+  },
+  {
+    fact: "Olympic Gold Medals are Predominantly Made from Sterling Silver",
+    category: CATEGORIES.SPORTS,
+  },
+  {
+    fact: "Sports Have Been Played on the Moon",
+    category: CATEGORIES.SPORTS,
+  },
+  {
+    fact: "Michael Phelps Has Won More Olympic Golds Than Mexico",
+    category: CATEGORIES.SPORTS,
+  },
+  {
+    fact: "Danny “Shiphtur” Le was the First E-Gamer to be Given an Athlete’s Visa in the US",
+    category: CATEGORIES.SPORTS,
+  },
+  {
+    fact: "The longest recorded tennis match lasted for 11 hours.",
+    category: CATEGORIES.SPORTS,
+  },
+  {
+    fact: "Tug of war was once an Olympic event.",
+    category: CATEGORIES.SPORTS,
+  },
+  // { fact: "", category: CATEGORIES.ANIMAL },
 ].map((f) => ({
   ...f,
   category: f.category.name,
