@@ -35,4 +35,8 @@ export const CATEGORIES = {
     name: "space",
     desc: "Space is big, almost like infinite you know??",
   },
+  SPORTS: {
+    name: "sports",
+    desc: "Running and stuff",
+  },
 };

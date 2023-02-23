@@ -12,6 +12,7 @@ const icelandFacts = [
   "The safest country in the world is Iceland",
   "Many Icelanders believe in elves",
   "Iceland was the last place on earth to be settled by humans",
+  "Iceland is the safest country in the world",
 ].map((fact) => ({ fact, category: CATEGORIES.ICELAND }));
 
 export const facts = [
@@ -378,7 +379,103 @@ export const facts = [
     fact: "The moon was once a piece of the Earth. ",
     category: CATEGORIES.SPACE,
   },
-  // { fact: "", category: CATEGORIES.ANIMAL },
+  {
+    fact: "Cats use their whiskers to assess if the space is too small for them to squeeze through. They are also a navigation tool and a mood indicator.",
+    category: CATEGORIES.ANIMAL,
+  },
+  {
+    fact: "Flamingos can only eat when its head is upside down.",
+    category: CATEGORIES.ANIMAL,
+  },
+  {
+    fact: "Cockroaches have personalities! For instance, some are boisterous, some are shy! They also have a rich social life. ",
+    category: CATEGORIES.ANIMAL,
+  },
+  {
+    fact: "Human eye can distinguish about 10 million unique colors but only 30 shades of gray.",
+    category: CATEGORIES.ANIMAL,
+  },
+  {
+    fact: "It takes about an 45-60 minutes for a snowflake to fall down from the cloud",
+    category: CATEGORIES.THINGS,
+  },
+  {
+    fact: "Anne Frank, Audrey Hepburn, Yayoi Kusama, and Martin Luther King Jr. were born in the same year.",
+    category: CATEGORIES.HUMAN,
+  },
+  { fact: "Antarctica is a desert.", category: CATEGORIES.GEOGRAPHY },
+  {
+    fact: "You can grow 3% taller during the time spent in space, according to NASA.",
+    category: CATEGORIES.ANIMAL,
+  },
+  {
+    fact: "Camels have three eyelids to protect them from sand.",
+    category: CATEGORIES.ANIMAL,
+  },
+  {
+    fact: "Cleopatra's birth happened closer to the moon landing  than when pyramids were built.",
+    category: CATEGORIES.HUMAN,
+  },
+  {
+    fact: "The origins of the Yo-Yo, one of the oldest toys known to humanity, seen on the side of Greek vases 500 BC",
+    category: CATEGORIES.THINGS,
+  },
+  {
+    fact: " France was still using guillotine when the first Star Wars movie came out.",
+    category: CATEGORIES.GEOGRAPHY,
+  },
+  {
+    fact: "The country with the highest personal debt in the world is the Netherlands ",
+    category: CATEGORIES.GEOGRAPHY,
+  },
+  {
+    fact: "Portugal was actually a part of Spain for like 30 years, we still have independence day because of that ",
+    category: CATEGORIES.GEOGRAPHY,
+  },
+  {
+    fact: "Germany and mexico do not increase your prison sentence if you try to escape and get caught, they see the pursuit if freedom as a human necessity",
+    category: CATEGORIES.GEOGRAPHY,
+  },
+  {
+    fact: "The US has around 800 military bases outside of their territory",
+    category: CATEGORIES.GEOGRAPHY,
+  },
+  {
+    fact: "The country with the most gay and transgender rights in the world is Canada.",
+    category: CATEGORIES.GEOGRAPHY,
+  },
+  {
+    fact: "Juventus has been to 9 champions league finals and lost 7",
+    category: CATEGORIES.SPORTS,
+  },
+  {
+    fact: "Denmark once won the euro without qualifying",
+    category: CATEGORIES.SPORTS,
+  },
+  {
+    fact: "There is a football club in Ecuador called barcelona that have an identical crest.",
+    category: CATEGORIES.SPORTS,
+  },
+  {
+    fact: "The biggest reason for hospital visits regarding chest pain is panic attacks.",
+    category: CATEGORIES.HUMAN,
+  },
+  {
+    fact: "In mexico you cannot renounce your citizenship ",
+    category: CATEGORIES.GEOGRAPHY,
+  },
+  { fact: "", category: CATEGORIES.ANIMAL },
+  { fact: "", category: CATEGORIES.ANIMAL },
+  { fact: "", category: CATEGORIES.ANIMAL },
+  { fact: "", category: CATEGORIES.ANIMAL },
+  { fact: "", category: CATEGORIES.ANIMAL },
+  { fact: "", category: CATEGORIES.ANIMAL },
+  { fact: "", category: CATEGORIES.ANIMAL },
+  { fact: "", category: CATEGORIES.ANIMAL },
+  { fact: "", category: CATEGORIES.ANIMAL },
+  { fact: "", category: CATEGORIES.ANIMAL },
+  { fact: "", category: CATEGORIES.ANIMAL },
+  { fact: "", category: CATEGORIES.ANIMAL },
 ].map((f) => ({
   ...f,
   category: f.category.name,
