@@ -6,7 +6,7 @@ const icelandFacts = [
   "Beer was illegal in Iceland until 1989.",
   "Iceland does not possess an army, air force or navy",
   "There are only two places on earth that do not have mosquitoes; Antarctica and Iceland.",
-  "There is not a single McDonald's restaurant to be found in Iceland. ",
+  "There is not a single McDonald's restaurant to be found in Iceland.",
   "According to local Icelandic Christmas traditions, there are 13 Santa Clauses ",
   "Iceland imports ice",
   "The safest country in the world is Iceland",
@@ -159,7 +159,7 @@ export const facts = [
     fact: "You can't bring a Furby to the Pentagon.",
     category: CATEGORIES.THINGS,
   },
-  { fact: "Babies are born without kneecaps. ", category: CATEGORIES.HUMAN },
+  { fact: "Babies are born without kneecaps.", category: CATEGORIES.HUMAN },
   {
     fact: "A blob of toothpaste is called a nurdle.",
     category: CATEGORIES.THINGS,
@@ -190,16 +190,16 @@ export const facts = [
     category: CATEGORIES.MEDIA,
   },
   {
-    fact: " Coca-Cola would be green if there wasn't coloring.",
+    fact: "Coca-Cola would be green if there wasn't coloring.",
     category: CATEGORIES.FOOD,
   },
-  { fact: "7. Carrots were originally purple.", category: CATEGORIES.FOOD },
+  { fact: "Carrots were originally purple.", category: CATEGORIES.FOOD },
   {
     fact: "The first written instance of 'OMG' that we know of was in a letter to Winston Churchill in 1917.",
     category: CATEGORIES.LANGUAGE,
   },
   {
-    fact: " Sony's first product was the electrical rice cooker.",
+    fact: "Sony's first product was the electrical rice cooker.",
     category: CATEGORIES.THINGS,
   },
   {
@@ -219,7 +219,7 @@ export const facts = [
     category: CATEGORIES.HUMAN,
   },
   {
-    fact: "Pepsi originally contained pepsin, thus the name. ",
+    fact: "Pepsi originally contained pepsin, thus the name.",
     category: CATEGORIES.THINGS,
   },
   {
@@ -231,12 +231,12 @@ export const facts = [
     category: CATEGORIES.HUMAN,
   },
   {
-    fact: "The electric chair was invented by a dentist. ",
+    fact: "The electric chair was invented by a dentist.",
     category: CATEGORIES.THINGS,
   },
-  { fact: "A snail can sleep for three years. ", category: CATEGORIES.ANIMAL },
+  { fact: "A snail can sleep for three years.", category: CATEGORIES.ANIMAL },
   {
-    fact: "The 'pound' key on your keyboard (#) is called an octotroph. ",
+    fact: "The 'pound' key on your keyboard (#) is called an octotroph.",
     category: CATEGORIES.LANGUAGE,
   },
   {
@@ -244,7 +244,7 @@ export const facts = [
     category: CATEGORIES.LANGUAGE,
   },
   {
-    fact: "The house fly hums in the middle octave key of F. ",
+    fact: "The house fly hums in the middle octave key of F.",
     category: CATEGORIES.ANIMAL,
   },
   {
@@ -306,23 +306,23 @@ export const facts = [
     category: CATEGORIES.ANIMAL,
   },
   {
-    fact: "Venus is the only planet that rotates clockwise. ",
+    fact: "Venus is the only planet that rotates clockwise.",
     category: CATEGORIES.SPACE,
   },
   {
-    fact: "Al Capone's business card said he was a used furniture dealer. ",
+    fact: "Al Capone's business card said he was a used furniture dealer.",
     category: CATEGORIES.HUMAN,
   },
   {
-    fact: "New Jersey grows two-thirds of the world's eggplants. ",
+    fact: "New Jersey grows two-thirds of the world's eggplants.",
     category: CATEGORIES.GEOGRAPHY,
   },
   {
-    fact: " An ostrich's eye is bigger than its brain.",
+    fact: "An ostrich's eye is bigger than its brain.",
     category: CATEGORIES.ANIMAL,
   },
   {
-    fact: "Most car horns are in the key of F. 53. ",
+    fact: "Most car horns are in the key of F. 53.",
     category: CATEGORIES.THINGS,
   },
   {
@@ -333,26 +333,26 @@ export const facts = [
     fact: "Somali pirates have such a hatred for Western culture, that the British Navy uses music from Britney Spears to scare them off.",
     category: CATEGORIES.HUMAN,
   },
-  { fact: " Women see more colors than men.", category: CATEGORIES.HUMAN },
-  { fact: " Women hiccup less than men. ", category: CATEGORIES.HUMAN },
+  { fact: "Women see more colors than men.", category: CATEGORIES.HUMAN },
+  { fact: "Women hiccup less than men.", category: CATEGORIES.HUMAN },
   {
-    fact: "The two highest IQ scores in history both belonged to women. ",
+    fact: "The two highest IQ scores in history both belonged to women.",
     category: CATEGORIES.HUMAN,
   },
   {
-    fact: "The country of Russia is bigger than Pluto. ",
+    fact: "The country of Russia is bigger than Pluto.",
     category: CATEGORIES.SPACE,
   },
   {
-    fact: "It's possible to turn peanut butter into diamonds. ",
+    fact: "It's possible to turn peanut butter into diamonds.",
     category: CATEGORIES.FOOD,
   },
   {
-    fact: " Linda Lou Taylor of Indiana holds the Guinness World Record for the most married person. She's been married 23 times.",
+    fact: "Linda Lou Taylor of Indiana holds the Guinness World Record for the most married person. She's been married 23 times.",
     category: CATEGORIES.HUMAN,
   },
   {
-    fact: " Emus and kangaroos cannot walk backward. ",
+    fact: "Emus and kangaroos cannot walk backward.",
     category: CATEGORIES.ANIMAL,
   },
   {
@@ -364,19 +364,19 @@ export const facts = [
     category: CATEGORIES.SPACE,
   },
   {
-    fact: " Dark Matter accounts for over 85 percent of the universe. ",
+    fact: "Dark Matter accounts for over 85 percent of the universe.",
     category: CATEGORIES.SPACE,
   },
   {
-    fact: " Fruit flies were the first living creatures sent into space. ",
+    fact: "Fruit flies were the first living creatures sent into space.",
     category: CATEGORIES.SPACE,
   },
   {
-    fact: "The footprints made on the moon will be there for 100 million years. ",
+    fact: "The footprints made on the moon will be there for 100 million years.",
     category: CATEGORIES.SPACE,
   },
   {
-    fact: "The moon was once a piece of the Earth. ",
+    fact: "The moon was once a piece of the Earth.",
     category: CATEGORIES.SPACE,
   },
   {
@@ -388,7 +388,7 @@ export const facts = [
     category: CATEGORIES.ANIMAL,
   },
   {
-    fact: "Cockroaches have personalities! For instance, some are boisterous, some are shy! They also have a rich social life. ",
+    fact: "Cockroaches have personalities! For instance, some are boisterous, some are shy! They also have a rich social life.",
     category: CATEGORIES.ANIMAL,
   },
   {
@@ -421,7 +421,7 @@ export const facts = [
     category: CATEGORIES.THINGS,
   },
   {
-    fact: " France was still using guillotine when the first Star Wars movie came out.",
+    fact: "France was still using guillotine when the first Star Wars movie came out.",
     category: CATEGORIES.GEOGRAPHY,
   },
   {
